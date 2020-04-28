@@ -1,0 +1,9 @@
+# Ignore Build folder and all subfolders
+/Build/
+
+# Ignore Test folder and all subfolders but Shared folder
+/Test/*
+!Test/Shared/
+
+# Ignore all *.txt files in Source folder and all subfolders 
+/Source/**/*.txt
